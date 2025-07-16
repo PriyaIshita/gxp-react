@@ -15,50 +15,11 @@ const Enquiry = () => {
       mobileno: '',
       message: '',
     });
-  // const handleChange = (e) => {
-  //   setformData({
-  //     ...formData, [e.target.name]: e.target.value,
-  //   });
-
-  //   setErrors((preErrors) =>({
-  //     ...preErrors, [e.target.name]: ''
-  //   }));
-  // };
-  // const validate = () => {
-  //   const newErrors = {};
-
-  //  /// if (!formData.name.trim()) newErrors.name = 'Name is required';
-  //  if (name === 'name' && /[^a-zA-Z\s]/.test(value)) {
-  //   return; // Skip update if value has a number or symbol
-  // }
-  // setformData((prev) => ({
-  //   ...prev,
-  //   [name]: value,
-  // }));
-  // setErrors((prevErrors) => ({
-  //   ...prevErrors,
-  //   [name]: ''
-  // }));
-  //   if (!formData.email) {
-  //     newErrors.email = 'Email is required';
-  //   } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
-  //     newErrors.email = 'Email is invalid';
-  //   }
-
-  //   if (!formData.mobileno) {
-  //     newErrors.mobileno = 'Mobile number is required';
-  //   } else if (!/^\d{10}$/.test(formData.mobileno)) {
-  //     newErrors.mobileno = 'Mobile number must be 10 digits';
-  //   }
-  //   if (!formData.message.trim()) newErrors.message = 'Message is required';
-  //   return newErrors;
-  // };
-
-  const handleChange = (e) => {
+    const handleChange = (e) => {
     
     if (!e || !e.target) return;
     const { name, value } = e.target;
-   // const { name, value } = e.target;
+   
     
   
     // Block numbers in the name field

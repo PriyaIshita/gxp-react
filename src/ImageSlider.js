@@ -10,6 +10,7 @@ import { BrowserRouter as Router, Route, Switch, Link, Routes } from 'react-rout
 import { type } from '@testing-library/user-event/dist/type';
 import Enquiry from './Enquiry';
 import RecordsList from './RecordList';
+import Signup from './Signup';
 
 
 
@@ -87,6 +88,13 @@ const ImageSlider = () => {
     </div>
     <div style={{ position: 'absolute', top:'2px',right: '2px',textAlign:'center',}}>
     <Enquiry/>
+
+ 
+ 
+    </div>
+    <div style={{ position: 'absolute', bottom:'2px',right: '2px',textAlign:'center',}}>
+    <Signup/>
+    
  
  
     </div>

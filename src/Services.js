@@ -5,7 +5,7 @@ const Services = () => {
   return (
     
     <div style={{ position: 'absolute', top:'229px',left: '42px',textAlign:'center',}}>
-    <h1>About GXP Compliance Partners Services</h1>
+    <h1>GXP Compliance Partners Services</h1>
     </div>
 
   )
