@@ -9,6 +9,7 @@ import Services from './Services';
 import Contact from './Contact';
 import Users from './Users';
 import Home from './Home';
+import Details from './Details';
 //import RecordsList from './RecordList';
 
 //const Home = () => <h2>Home page</h2>;
@@ -39,6 +40,7 @@ function App() {
                 <Route path='/services' element={<Services/>}/>
                 <Route path='/contact' element={<Contact/>}/>
                 <Route path='/users' element={<Users/>}/>
+                <Route path='/details' element={<Details/>}/>
             </Routes>
           
        
